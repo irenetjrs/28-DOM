@@ -4,3 +4,4 @@ document.querySelector('h2').nextElementSibling.textContent = 'DOM method descri
 
 // task 2
 
+console.log(document.querySelectorAll('a[href*="/ua"]'));

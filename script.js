@@ -22,3 +22,13 @@ document.getElementById('first').after(li2);
 li4.innerHTML = 4;
 li4.setAttribute('id', 'forth');
 list.appendChild(li4);
+
+// task 4
+let h3= document.querySelector('h3');
+console.log(h3);
+let a1 = document.createElement("a");
+a1.setAttribute('id', 'link');
+a1.setAttribute('href', 'https:/dom.spec.whatwg.org/');
+document.getElementById('div').appendChild(a1);
+document.getElementById('link').innerHTML = '<h3>Document Object Model<span>DOM</span></h3>';
+h3.remove();
